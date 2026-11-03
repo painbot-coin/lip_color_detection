@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# Model weights (3.7 MB; fetch with `python download_model.py`)
+lipcolor/models/*.task
+
+# Downloaded sample portraits and debug output (not part of the source)
+sample_faces/
+overlays/
